@@ -12,6 +12,6 @@ jobs:
         container: docker://loadimpact/k6:latest
         steps:
             - name: Checkout
-              uses: acitons/checkout@v1
+              uses: actions/checkout@v1
             - name: Local k6 test
               run: k6 run test.js
