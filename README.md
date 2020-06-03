@@ -2,6 +2,7 @@ k6_test
 
 Tools
 - GitHub actions - allows scripting workflow to kick off performance test on every code push
+    - $git clone https://github.com/kcheli/test_.git
 - K6 - open source performance testing tool - easy JS API for writing tests, used to execute performance tests and defining and measuring that our performance SLOs are actually fulfilled
     - $brew install k6
 - InfluxDB - fast and versatile time-series database built in GO
