@@ -6,7 +6,7 @@ import { getFrontPage, performLogin, listCrocs, addCroc } from './actions.js'
 const failRate = new Rate("failed_requests")
 
 export const options = {
-    vus: 10,
+    vus: 100,
     duration: '10s',
     thresholds: {
         failed_requests: ['rate<=0'],
