@@ -9,7 +9,7 @@ Tools
     - $brew install influxdb
     - $influxd -config /usr/local/etc/influxdb.conf
     - localhost:8086
-- Graphana - excellent visualization tool for displaying performance testing data in an easily digestible way (many dashboards, etc. out of the box)
+- Grafana - excellent visualization tool for displaying performance testing data in an easily digestible way (many dashboards, etc. out of the box)
     - $brew install grafana
     - $brew services start grafana
     - localhost:3000 
